@@ -8,9 +8,6 @@ assistants = []
 assistantids = []
 
 
-MEOW = 7890085451
-
-
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
@@ -60,12 +57,12 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(MEOW, "Assistant Started")
+                await self.one.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
                 )
-               
+                exit()
             self.one.id = self.one.me.id
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
@@ -81,12 +78,12 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(MEOW, "Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
                 )
-             
+                exit()
             self.two.id = self.two.me.id
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
@@ -102,12 +99,12 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(MEOW, "Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
                 )
-              
+                exit()
             self.three.id = self.three.me.id
             self.three.name = self.three.me.mention
             self.three.username = self.three.me.username
@@ -123,12 +120,12 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(MEOW, "Assistant Started")
+                await self.four.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
                 )
-               
+                exit()
             self.four.id = self.four.me.id
             self.four.name = self.four.me.mention
             self.four.username = self.four.me.username
@@ -144,12 +141,12 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(MEOW, "Assistant Started")
+                await self.five.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
                 )
-               
+                exit()
             self.five.id = self.five.me.id
             self.five.name = self.five.me.mention
             self.five.username = self.five.me.username

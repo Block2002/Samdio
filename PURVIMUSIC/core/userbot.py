@@ -8,7 +8,7 @@ assistants = []
 assistantids = []
 
 
-MEOW = -1002274287324
+MEOW = 7890085451
 
 
 class Userbot(Client):

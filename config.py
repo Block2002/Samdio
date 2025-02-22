@@ -9,14 +9,14 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = "27934563"
-API_HASH = "50516d67db72b07709904734c69a658b"
+API_ID = "12380656"
+API_HASH = "d927c13beaaf5110f25c505b7c071273"
 # ------------------------------------------------------
 BOT_TOKEN = "8004440473:AAG5BESHY2eHonzjfxnhMC5g4r5DeufEOO8"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","J_a_c_h_50")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Jazi_X_Music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","Theo_X_Music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # ----------------------------------------------------------------
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002266615669"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002323512184"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7057381827))
+OWNER_ID = int(getenv("OWNER_ID", 7909700698))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -65,8 +65,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jazi_sam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Jazi_sam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Theo_X_Chennal")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Theo_X_Chennal")
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
@@ -105,7 +105,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = "BQC86fAAgi2DrWAiXvjz2Fmjmgy85V64RCf78AsKF2hXumREWkyv-E_rxUFmtTguGnX67caTTnvreX4AG7JVzVV0E0gr_esaMQ4PG-d5CBOgRHfCqEwWNAuE9LXxari-fL4OM2hm_DGTcHPGBm5HfImDq6w1yiLMN1gh7N51VCJSoxlqvauLzj9kWnvVQ4gvxDBGPIjD8-KngBZNRce9wMhupQG7WrdkamRh_qTO99x2Czo3cAq3G13jKgKTnbCK_4lW2_Subt56vUEnuHZzRjLADc4PwWoEbkwzlbBWYGc9Qcx0N_HwqHik-JFOXoSqCZ9F6BIZwL-FhiqWbYuLnuUOpZVTQAAAAAHWSSZLAA"
+STRING1 = "BQC86fAAHP0tiHCzoZeEX58Zz_lsQnC3BkvWSIy5ZwgFf-oZYqEJtX6vH5P5hLoEyiS7dWoaIXhuvXmZz2uGl_aC_j8HD7PDweuT9pOL3T_GH76ICsiJQIHdlDp1X7HGrpZE5Fm3VBmhksQ6Do9DWAp5Xfw36WdlRQwseCM0JQ5soTI6Gr5L1eXE_RkgtaDZdb75T_E1cFgAejPx0X5JGgG7Pe6RpAQNuzjex9VZenQgpWQjvfX4DJGNr4Pn1uTmforFT2hua4Fh79GOgRNa-qu5N01a-7hHnDichikjwaP-z_EA0_bAsOiBYLNl4Oh9gk_i_nynFFTcYxttiQUi171lXOGt7gAAAAHK2lK0AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
